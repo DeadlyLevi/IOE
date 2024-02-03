@@ -203,6 +203,10 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_CrouchInputAction;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SprintInputAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_SprintInputAction;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_JumpEventTag_MetaData[];
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_JumpEventTag;
@@ -214,6 +218,10 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CrouchTags_MetaData[];
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_CrouchTags;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SprintTags_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_SprintTags;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CrouchStateEffect_MetaData[];
 #endif
@@ -377,6 +385,14 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchInputAction = { "CrouchInputAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, CrouchInputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchInputAction_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchInputAction_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "IOECharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction = { "SprintInputAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, SprintInputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_JumpEventTag_MetaData[] = {
 		{ "Category", "IOECharacter" },
 		{ "ModuleRelativePath", "IOECharacter.h" },
@@ -397,6 +413,13 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchTags = { "CrouchTags", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, CrouchTags), Z_Construct_UScriptStruct_FGameplayTagContainer, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchTags_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchTags_MetaData) }; // 405371792
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintTags_MetaData[] = {
+		{ "Category", "IOECharacter" },
+		{ "ModuleRelativePath", "IOECharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintTags = { "SprintTags", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, SprintTags), Z_Construct_UScriptStruct_FGameplayTagContainer, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintTags_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintTags_MetaData) }; // 405371792
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchStateEffect_MetaData[] = {
 		{ "Category", "IOECharacter" },
@@ -420,9 +443,11 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_LookUpInputAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_JumpInputAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchInputAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_JumpEventTag,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_InAirTags,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchTags,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintTags,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchStateEffect,
 	};
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AIOECharacter_Statics::InterfaceParams[] = {
@@ -477,9 +502,9 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIOECharacter, AIOECharacter::StaticClass, TEXT("AIOECharacter"), &Z_Registration_Info_UClass_AIOECharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIOECharacter), 956798839U) },
+		{ Z_Construct_UClass_AIOECharacter, AIOECharacter::StaticClass, TEXT("AIOECharacter"), &Z_Registration_Info_UClass_AIOECharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIOECharacter), 130235209U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_2567207016(TEXT("/Script/IOE"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_2171795123(TEXT("/Script/IOE"),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

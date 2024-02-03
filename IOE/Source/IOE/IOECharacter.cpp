@@ -74,6 +74,8 @@ Super(ObjectInitializer.SetDefaultSubobjectClass<UIOE_CharacterMovementComponent
 
 	AttributeSet = CreateDefaultSubobject<UIOE_AttributeSetBase>(TEXT("AttributeSet"));
 
+	AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AttributeSet->GetMaxMovementSpeedAttribute()).AddUObject(this, &AIOECharacter::OnMaxMovementSpeedChanged);
+
 	FootstepsComponent = CreateDefaultSubobject<UFootstepsComponent>(TEXT("FootstepsComponent"));
 }
 
@@ -208,6 +210,22 @@ void AIOECharacter::OnCrouchActionEnded(const FInputActionValue& Value)
 	}
 }
 
+void AIOECharacter::OnSprintActionStarted(const FInputActionValue& Value)
+{
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->TryActivateAbilitiesByTag(SprintTags, true);
+	}
+}
+
+void AIOECharacter::OnSprintActionEnded(const FInputActionValue& Value)
+{
+	if (AbilitySystemComponent)
+	{
+		AbilitySystemComponent->CancelAbilities(&SprintTags);
+	}
+}
+
 void AIOECharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// Set up action bindings
@@ -245,6 +263,13 @@ void AIOECharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 		{
 			EnhancedInputComponent->BindAction(CrouchInputAction, ETriggerEvent::Started, this, &AIOECharacter::OnCrouchActionStarted);
 			EnhancedInputComponent->BindAction(CrouchInputAction, ETriggerEvent::Completed, this, &AIOECharacter::OnCrouchActionEnded);
+		}
+
+		//Sprinting
+		if (SprintInputAction)
+		{
+			EnhancedInputComponent->BindAction(SprintInputAction, ETriggerEvent::Started, this, &AIOECharacter::OnSprintActionStarted);
+			EnhancedInputComponent->BindAction(SprintInputAction, ETriggerEvent::Completed, this, &AIOECharacter::OnSprintActionEnded);
 		}
 	}
 	else
@@ -367,6 +392,11 @@ void AIOECharacter::OnRep_PlayerState()
 {
 	Super::OnRep_PlayerState();
 	AbilitySystemComponent->InitAbilityActorInfo(this, this);
+}
+
+void AIOECharacter::OnMaxMovementSpeedChanged(const FOnAttributeChangeData& Data)
+{
+	GetCharacterMovement()->MaxWalkSpeed = Data.NewValue;
 }
 
 void AIOECharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const

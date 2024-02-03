@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-IOE-8916.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"Z:\MY\CODE\GIT\IOE\IOE\Intermediate\Build\Win64\x64\IOEEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"Z:\MY\CODE\GIT\IOE\IOE\Intermediate\Build\Win64\x64\UnrealEditor\Development\IOE\Module.IOE.cpp.obj"
+"Z:\MY\CODE\GIT\IOE\IOE\Intermediate\Build\Win64\x64\UnrealEditor\Development\IOE\IOECharacter.cpp.obj"
+"Z:\MY\CODE\GIT\IOE\IOE\Intermediate\Build\Win64\x64\UnrealEditor\Development\IOE\IOE.init.gen.cpp.obj"
+"Z:\MY\CODE\GIT\IOE\IOE\Intermediate\Build\Win64\x64\UnrealEditor\Development\IOE\IOECharacter.gen.cpp.obj"
+"Z:\MY\CODE\GIT\IOE\IOE\Intermediate\Build\Win64\x64\UnrealEditor\Development\IOE\Default.rc2.res"
+/OUT:"Z:\MY\CODE\GIT\IOE\IOE\Intermediate\Build\Win64\x64\UnrealEditor\Development\IOE\UnrealEditor-IOE-8916.lib"

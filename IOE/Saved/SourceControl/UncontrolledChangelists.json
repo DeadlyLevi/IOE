@@ -7,7 +7,13 @@
 			"files": [
 				"Z:/MY/CODE/GIT/IOE/IOE/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
 				"Z:/MY/CODE/GIT/IOE/IOE/Content/Blueprints/AbilitySystem/GameplayEffects/GE_State_Jump.uasset",
-				"Z:/MY/CODE/GIT/IOE/IOE/Content/Blueprints/DataAssets/Characters/BaseCharacter.uasset"
+				"Z:/MY/CODE/GIT/IOE/IOE/Content/Blueprints/DataAssets/Characters/BaseCharacter.uasset",
+				"Z:/MY/CODE/GIT/IOE/IOE/Content/Blueprints/AbilitySystem/Abilities/BP_GA_Sprint.uasset",
+				"Z:/MY/CODE/GIT/IOE/IOE/Content/Blueprints/AbilitySystem/GameplayEffects/GE_State_Sprint.uasset",
+				"Z:/MY/CODE/GIT/IOE/IOE/Content/EnhancedInput/IA_Sprint.uasset",
+				"Z:/MY/CODE/GIT/IOE/IOE/Content/EnhancedInput/DefaultInputMappingContext.uasset",
+				"Z:/MY/CODE/GIT/IOE/IOE/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"Z:/MY/CODE/GIT/IOE/IOE/Content/Blueprints/AbilitySystem/Abilities/BP_GA_Sprint2.uasset"
 			]
 		}
 	]
