@@ -8,6 +8,7 @@
 #include "Abilities/GameplayAbility.h"
 #include "IOE_GameTypes.h"
 #include "InputActionValue.h"
+#include "ActorComponents/IOE_MotionWarpingComponent.h"
 
 #include "IOECharacter.generated.h"
 
@@ -16,6 +17,9 @@ class UIOE_AttributeSetBase;
 
 class UGameplayEffect;
 class UGameplayAbility;
+
+class UIOE_MotionWarpingComponent;
+class UIOE_CharacterMovementComponent;
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -58,6 +62,7 @@ public:
 
 	virtual void OnEndCrouch(float HalfHeightAdjust, float ScaleHalfHeightAdjust) override;
 
+	UIOE_MotionWarpingComponent* GetIOEMotionWarpingComponent() const;
 protected:
 
 	void GiveAbilities();
@@ -66,13 +71,16 @@ protected:
 	virtual void PossessedBy(AController* NewController) override;
 	virtual void OnRep_PlayerState() override;
 
-	
-
 	UPROPERTY(EditDefaultsOnly)
 	UIOE_AbilitySystemComponentBase* AbilitySystemComponent;
 
 	UPROPERTY(Transient)
 	UIOE_AttributeSetBase* AttributeSet;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = MotionWarp)
+	UIOE_MotionWarpingComponent* IOEMotionWarpingComponent;
+
+	UIOE_CharacterMovementComponent* IOECharacterMovementComponent;
 
 protected:
 	// APawn interface

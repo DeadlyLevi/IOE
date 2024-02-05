@@ -60,7 +60,7 @@ void UIOE_GameplayAbility::ActivateAbility(const FGameplayAbilitySpecHandle Hand
 	}
 }
 
-AIOECharacter* UIOE_GameplayAbility::GetActionGameCharacterFromInfo()
+AIOECharacter* UIOE_GameplayAbility::GetIOECharacterFromActorInfo()
 {
 	return Cast<AIOECharacter>(GetAvatarActorFromActorInfo());
 }

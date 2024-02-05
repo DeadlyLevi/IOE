@@ -20,7 +20,7 @@ class AIOECharacter;
 #define FID_IOE_Source_IOE_AbilitySystem_Abilities_IOE_GameplayAbility_h_15_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_IOE_Source_IOE_AbilitySystem_Abilities_IOE_GameplayAbility_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetActionGameCharacterFromInfo);
+	DECLARE_FUNCTION(execGetIOECharacterFromActorInfo);
 
 
 #define FID_IOE_Source_IOE_AbilitySystem_Abilities_IOE_GameplayAbility_h_15_ACCESSORS

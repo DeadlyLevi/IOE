@@ -52,6 +52,8 @@ Super(ObjectInitializer.SetDefaultSubobjectClass<UIOE_CharacterMovementComponent
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
 
+	IOECharacterMovementComponent = Cast<UIOE_CharacterMovementComponent>(GetCharacterMovement());
+
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
@@ -77,6 +79,8 @@ Super(ObjectInitializer.SetDefaultSubobjectClass<UIOE_CharacterMovementComponent
 	AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AttributeSet->GetMaxMovementSpeedAttribute()).AddUObject(this, &AIOECharacter::OnMaxMovementSpeedChanged);
 
 	FootstepsComponent = CreateDefaultSubobject<UFootstepsComponent>(TEXT("FootstepsComponent"));
+
+	IOEMotionWarpingComponent = CreateDefaultSubobject<UIOE_MotionWarpingComponent>(TEXT("MotionWarpingComponent"));
 }
 
 void AIOECharacter::PostInitializeComponents()
@@ -181,12 +185,7 @@ void AIOECharacter::OnLookUpAction(const FInputActionValue& Value)
 
 void AIOECharacter::OnJumpActionStarted(const FInputActionValue& Value)
 {
-	FGameplayEventData Payload;
-
-	Payload.Instigator = this;
-	Payload.EventTag = JumpEventTag;
-
-	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(this, JumpEventTag, Payload);
+	IOECharacterMovementComponent->TryTraversal(AbilitySystemComponent);
 }
 
 void AIOECharacter::OnJumpActionEnded(const FInputActionValue& Value)
@@ -360,6 +359,11 @@ void AIOECharacter::OnEndCrouch(float HalfHeightAdjust, float ScaleHalfHeightAdj
 	}
 
 	Super::OnStartCrouch(HalfHeightAdjust, ScaleHalfHeightAdjust);
+}
+
+UIOE_MotionWarpingComponent* AIOECharacter::GetIOEMotionWarpingComponent() const
+{
+	return IOEMotionWarpingComponent;
 }
 
 

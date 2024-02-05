@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 	IOE_API UClass* Z_Construct_UClass_UFootstepsComponent_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UIOE_AbilitySystemComponentBase_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UIOE_AttributeSetBase_NoRegister();
+	IOE_API UClass* Z_Construct_UClass_UIOE_MotionWarpingComponent_NoRegister();
 	IOE_API UScriptStruct* Z_Construct_UScriptStruct_FCharacterData();
 	UPackage* Z_Construct_UPackage__Script_IOE();
 // End Cross Module References
@@ -162,6 +163,10 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_AttributeSet_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_AttributeSet;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_IOEMotionWarpingComponent_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_IOEMotionWarpingComponent;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CharacterData_MetaData[];
 #endif
@@ -302,6 +307,14 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_AttributeSet = { "AttributeSet", nullptr, (EPropertyFlags)0x0020080000082008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, AttributeSet), Z_Construct_UClass_UIOE_AttributeSetBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_AttributeSet_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_AttributeSet_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_IOEMotionWarpingComponent_MetaData[] = {
+		{ "Category", "MotionWarp" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "IOECharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_IOEMotionWarpingComponent = { "IOEMotionWarpingComponent", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, IOEMotionWarpingComponent), Z_Construct_UClass_UIOE_MotionWarpingComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_IOEMotionWarpingComponent_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_IOEMotionWarpingComponent_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_CharacterData_MetaData[] = {
 		{ "ModuleRelativePath", "IOECharacter.h" },
 	};
@@ -433,6 +446,7 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_TurnRateGamepad,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_AbilitySystemComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_AttributeSet,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_IOEMotionWarpingComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CharacterData,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CharacterDataAsset,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_FootstepsComponent,
@@ -502,9 +516,9 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIOECharacter, AIOECharacter::StaticClass, TEXT("AIOECharacter"), &Z_Registration_Info_UClass_AIOECharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIOECharacter), 130235209U) },
+		{ Z_Construct_UClass_AIOECharacter, AIOECharacter::StaticClass, TEXT("AIOECharacter"), &Z_Registration_Info_UClass_AIOECharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIOECharacter), 1956798445U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_2171795123(TEXT("/Script/IOE"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_3586023139(TEXT("/Script/IOE"),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

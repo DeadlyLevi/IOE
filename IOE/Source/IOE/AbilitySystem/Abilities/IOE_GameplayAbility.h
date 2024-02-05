@@ -32,5 +32,5 @@ protected:
 	TArray<FActiveGameplayEffectHandle> RemoveOnEndEffectHandles;
 
 	UFUNCTION(BlueprintCallable, BlueprintPure)
-	AIOECharacter* GetActionGameCharacterFromInfo();
+	AIOECharacter* GetIOECharacterFromActorInfo();
 };
