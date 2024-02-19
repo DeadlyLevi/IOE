@@ -18,6 +18,7 @@
 
 #include "ActorComponents/IOE_CharacterMovementComponent.h"
 #include "ActorComponents/FootstepsComponent.h"
+#include "Inventory/InventoryComponent.h"
 
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
@@ -81,6 +82,10 @@ Super(ObjectInitializer.SetDefaultSubobjectClass<UIOE_CharacterMovementComponent
 	FootstepsComponent = CreateDefaultSubobject<UFootstepsComponent>(TEXT("FootstepsComponent"));
 
 	IOEMotionWarpingComponent = CreateDefaultSubobject<UIOE_MotionWarpingComponent>(TEXT("MotionWarpingComponent"));
+
+	InventoryComponent = CreateDefaultSubobject<UInventoryComponent>(TEXT("InventoryComponent"));
+	InventoryComponent->SetIsReplicated(true);
+
 }
 
 void AIOECharacter::PostInitializeComponents()
@@ -408,4 +413,5 @@ void AIOECharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLif
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
 	DOREPLIFETIME(AIOECharacter, CharacterData);
+	DOREPLIFETIME(AIOECharacter, InventoryComponent);
 }

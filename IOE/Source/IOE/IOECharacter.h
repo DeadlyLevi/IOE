@@ -21,6 +21,8 @@ class UGameplayAbility;
 class UIOE_MotionWarpingComponent;
 class UIOE_CharacterMovementComponent;
 
+class UInventoryComponent;
+
 class USpringArmComponent;
 class UCameraComponent;
 class UInputMappingContext;
@@ -193,9 +195,14 @@ protected:
 	TSubclassOf<UGameplayEffect> CrouchStateEffect;
 
 	// Delegates
-
 protected:
 
 	FDelegateHandle MaxMovementSpeedChangedDelegateHandle;
+
+	// Inventory
+protected:
+	UPROPERTY(EditAnywhere, Replicated)
+	UInventoryComponent* InventoryComponent = nullptr;
+
 };
 

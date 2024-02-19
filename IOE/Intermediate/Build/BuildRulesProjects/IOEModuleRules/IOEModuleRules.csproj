@@ -14,7 +14,6 @@
     <ProjectReference Include="C:\Program Files\Epic Games\UE_5.3\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.csproj"><Private>false</Private></ProjectReference>
   </ItemGroup>
   <ItemGroup>
-  <Compile Include="..\..\..\..\Plugins\vc-ue-extensions\Source\VisualStudioTools\VisualStudioTools.Build.cs"><Link>Plugins\vc-ue-extensions\Source\VisualStudioTools\VisualStudioTools.Build.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\IOE.Target.cs"><Link>Source\IOE.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\IOEEditor.Target.cs"><Link>Source\IOEEditor.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\IOE\IOE.Build.cs"><Link>Source\IOE\IOE.Build.cs</Link></Compile>

@@ -262,9 +262,9 @@
 /I "..\Plugins\Runtime\DataRegistry\Source\DataRegistry\Public"
 /I "..\Plugins\Animation\MotionWarping\Intermediate\Build\Win64\UnrealEditor\Inc\MotionWarping\UHT"
 /I "..\Plugins\Animation\MotionWarping\Source\MotionWarping\Public"
-/I "Z:\MY\CODE\GIT\IOE\IOE\Intermediate\Build\Win64\UnrealEditor\Inc\IOE\UHT"
-/I "Z:\MY\CODE\GIT\IOE\IOE\Source\IOE"
-/I "Z:\MY\CODE\GIT\IOE\IOE\Source"
+/I "Z:\MY\CODE\GIT\ProjectIOE\IOE\Intermediate\Build\Win64\UnrealEditor\Inc\IOE\UHT"
+/I "Z:\MY\CODE\GIT\ProjectIOE\IOE\Source\IOE"
+/I "Z:\MY\CODE\GIT\ProjectIOE\IOE\Source"
 /I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
 /I "..\Plugins\EnhancedInput\Source\EnhancedInput\Public"
 /external:W0

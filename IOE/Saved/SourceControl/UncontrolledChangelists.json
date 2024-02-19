@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"Z:/MY/CODE/GIT/ProjectIOE/IOE/Content/Blueprints/Inventory/TestItem.uasset",
+				"Z:/MY/CODE/GIT/ProjectIOE/IOE/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"Z:/MY/CODE/GIT/ProjectIOE/IOE/Content/Blueprints/AbilitySystem/Abilities/BP_GA_Crouch.uasset",
+				"Z:/MY/CODE/GIT/ProjectIOE/IOE/Content/EnhancedInput/DefaultInputMappingContext.uasset",
+				"Z:/MY/CODE/GIT/ProjectIOE/IOE/Content/Blueprints/AbilitySystem/Abilities/BP_GA_Vault.uasset",
 				"Z:/MY/CODE/GIT/IOE/IOE/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
 				"Z:/MY/CODE/GIT/IOE/IOE/Content/Animations/VaultOver_Montage.uasset",
 				"Z:/MY/CODE/GIT/IOE/IOE/Content/Blueprints/AbilitySystem/Abilities/BP_GA_Vault.uasset",

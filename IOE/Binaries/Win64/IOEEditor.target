@@ -3528,18 +3528,6 @@
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/vc-ue-extensions/Binaries/Win64/UnrealEditor-VisualStudioTools.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/vc-ue-extensions/Binaries/Win64/UnrealEditor-VisualStudioTools.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/vc-ue-extensions/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
 		}
 	],
 	"RuntimeDependencies": [
@@ -24837,10 +24825,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/IOE.uproject",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/vc-ue-extensions/VisualStudioTools.uplugin",
 			"Type": "UFS"
 		}
 	],

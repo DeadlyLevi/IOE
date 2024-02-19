@@ -1,9 +1,8 @@
 {
 	"SourceFiles": [
-		"Z:\\MY\\CODE\\GIT\\IOE\\IOE\\Source\\IOE\\IOE.Build.cs",
-		"Z:\\MY\\CODE\\GIT\\IOE\\IOE\\Plugins\\vc-ue-extensions\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
-		"Z:\\MY\\CODE\\GIT\\IOE\\IOE\\Source\\IOE.Target.cs",
-		"Z:\\MY\\CODE\\GIT\\IOE\\IOE\\Source\\IOEEditor.Target.cs"
+		"Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Source\\IOE\\IOE.Build.cs",
+		"Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Source\\IOE.Target.cs",
+		"Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Source\\IOEEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }

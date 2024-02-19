@@ -25,6 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 	IOE_API UClass* Z_Construct_UClass_AIOECharacter_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UCharacterDataAsset_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UFootstepsComponent_NoRegister();
+	IOE_API UClass* Z_Construct_UClass_UInventoryComponent_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UIOE_AbilitySystemComponentBase_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UIOE_AttributeSetBase_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UIOE_MotionWarpingComponent_NoRegister();
@@ -231,6 +232,10 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CrouchStateEffect_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_CrouchStateEffect;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InventoryComponent_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_InventoryComponent;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
@@ -440,6 +445,14 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchStateEffect = { "CrouchStateEffect", nullptr, (EPropertyFlags)0x0024080000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, CrouchStateEffect), Z_Construct_UClass_UClass, Z_Construct_UClass_UGameplayEffect_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchStateEffect_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchStateEffect_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_InventoryComponent_MetaData[] = {
+		{ "Category", "IOECharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "IOECharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_InventoryComponent = { "InventoryComponent", nullptr, (EPropertyFlags)0x0020080000080029, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, InventoryComponent), Z_Construct_UClass_UInventoryComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_InventoryComponent_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_InventoryComponent_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIOECharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_FollowCamera,
@@ -463,6 +476,7 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchTags,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintTags,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchStateEffect,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_InventoryComponent,
 	};
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AIOECharacter_Statics::InterfaceParams[] = {
 			{ Z_Construct_UClass_UAbilitySystemInterface_NoRegister, (int32)VTABLE_OFFSET(AIOECharacter, IAbilitySystemInterface), false },  // 3195502011
@@ -503,9 +517,11 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 	void AIOECharacter::ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const
 	{
 		static const FName Name_CharacterData(TEXT("CharacterData"));
+		static const FName Name_InventoryComponent(TEXT("InventoryComponent"));
 
 		const bool bIsValid = true
-			&& Name_CharacterData == ClassReps[(int32)ENetFields_Private::CharacterData].Property->GetFName();
+			&& Name_CharacterData == ClassReps[(int32)ENetFields_Private::CharacterData].Property->GetFName()
+			&& Name_InventoryComponent == ClassReps[(int32)ENetFields_Private::InventoryComponent].Property->GetFName();
 
 		checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in AIOECharacter"));
 	}
@@ -516,9 +532,9 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIOECharacter, AIOECharacter::StaticClass, TEXT("AIOECharacter"), &Z_Registration_Info_UClass_AIOECharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIOECharacter), 1956798445U) },
+		{ Z_Construct_UClass_AIOECharacter, AIOECharacter::StaticClass, TEXT("AIOECharacter"), &Z_Registration_Info_UClass_AIOECharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIOECharacter), 4077271227U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_3586023139(TEXT("/Script/IOE"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_84133368(TEXT("/Script/IOE"),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

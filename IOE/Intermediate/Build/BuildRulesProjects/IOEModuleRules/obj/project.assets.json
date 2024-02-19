@@ -8047,11 +8047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\MY\\CODE\\GIT\\IOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\IOEModuleRules.csproj",
+      "projectUniqueName": "Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\IOEModuleRules.csproj",
       "projectName": "IOEModuleRules",
-      "projectPath": "Z:\\MY\\CODE\\GIT\\IOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\IOEModuleRules.csproj",
+      "projectPath": "Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\IOEModuleRules.csproj",
       "packagesPath": "C:\\Users\\Levi\\.nuget\\packages\\",
-      "outputPath": "Z:\\MY\\CODE\\GIT\\IOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\obj\\",
+      "outputPath": "Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Levi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8098,8 +8098,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -8108,7 +8107,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

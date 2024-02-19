@@ -1,7 +1,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
 #include "IOE_GameTypes.generated.h"
 
 USTRUCT(BlueprintType)
@@ -44,4 +43,16 @@ enum class EFoot : uint8
 {
 	Left UMETA(DisplayName = "Left"),
 	Right UMETA(DisplayName = "Right")
+};
+
+UCLASS(BlueprintType, Blueprintable)
+class UItemStaticData : public UObject
+{
+	GENERATED_BODY()
+
+protected:
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	FName Name;
+
 };

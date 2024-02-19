@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeGA_Vault() {}
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UEnum* Z_Construct_UEnum_Engine_ECollisionChannel();
 	ENGINE_API UEnum* Z_Construct_UEnum_Engine_EObjectTypeQuery();
+	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilityTask_PlayMontageAndWait_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UGA_Vault();
 	IOE_API UClass* Z_Construct_UClass_UGA_Vault_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UIOE_GameplayAbility();
@@ -64,6 +65,10 @@ void EmptyLinkFunctionForGeneratedCodeGA_Vault() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_VaultMontage_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_VaultMontage;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MontageTask_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MontageTask;
 		static const UECodeGen_Private::FBytePropertyParams NewProp_CollisionChannelsToIgnore_Inner;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CollisionChannelsToIgnore_MetaData[];
@@ -141,6 +146,12 @@ void EmptyLinkFunctionForGeneratedCodeGA_Vault() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGA_Vault_Statics::NewProp_VaultMontage = { "VaultMontage", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGA_Vault, VaultMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGA_Vault_Statics::NewProp_VaultMontage_MetaData), Z_Construct_UClass_UGA_Vault_Statics::NewProp_VaultMontage_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGA_Vault_Statics::NewProp_MontageTask_MetaData[] = {
+		{ "ModuleRelativePath", "AbilitySystem/Abilities/GA_Vault.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGA_Vault_Statics::NewProp_MontageTask = { "MontageTask", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UGA_Vault, MontageTask), Z_Construct_UClass_UAbilityTask_PlayMontageAndWait_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UGA_Vault_Statics::NewProp_MontageTask_MetaData), Z_Construct_UClass_UGA_Vault_Statics::NewProp_MontageTask_MetaData) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UGA_Vault_Statics::NewProp_CollisionChannelsToIgnore_Inner = { "CollisionChannelsToIgnore", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_Engine_ECollisionChannel, METADATA_PARAMS(0, nullptr) }; // 1822723181
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGA_Vault_Statics::NewProp_CollisionChannelsToIgnore_MetaData[] = {
@@ -159,6 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeGA_Vault() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGA_Vault_Statics::NewProp_TraceObjectTypes_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGA_Vault_Statics::NewProp_TraceObjectTypes,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGA_Vault_Statics::NewProp_VaultMontage,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGA_Vault_Statics::NewProp_MontageTask,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGA_Vault_Statics::NewProp_CollisionChannelsToIgnore_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGA_Vault_Statics::NewProp_CollisionChannelsToIgnore,
 	};
@@ -200,9 +212,9 @@ void EmptyLinkFunctionForGeneratedCodeGA_Vault() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_AbilitySystem_Abilities_GA_Vault_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UGA_Vault, UGA_Vault::StaticClass, TEXT("UGA_Vault"), &Z_Registration_Info_UClass_UGA_Vault, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGA_Vault), 3818351214U) },
+		{ Z_Construct_UClass_UGA_Vault, UGA_Vault::StaticClass, TEXT("UGA_Vault"), &Z_Registration_Info_UClass_UGA_Vault, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGA_Vault), 2133204239U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_AbilitySystem_Abilities_GA_Vault_h_2452972545(TEXT("/Script/IOE"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_AbilitySystem_Abilities_GA_Vault_h_174261251(TEXT("/Script/IOE"),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_AbilitySystem_Abilities_GA_Vault_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_AbilitySystem_Abilities_GA_Vault_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
