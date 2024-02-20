@@ -50,8 +50,8 @@ class UItemStaticData : public UObject
 {
 	GENERATED_BODY()
 
-protected:
-
+public:
+	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	FName Name;
 

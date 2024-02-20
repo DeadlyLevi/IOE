@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe_statics.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\ioeeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ioe\\definitions.ioe.h",
+            "z:\\my\\code\\git\\projectioe\\ioe\\source\\ioe\\ioe_statics.h",
+            "z:\\my\\code\\git\\projectioe\\ioe\\source\\ioe\\ioe_gametypes.h",
+            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe_gametypes.generated.h",
+            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe_statics.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

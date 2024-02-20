@@ -5,6 +5,8 @@
 #include "Z:/MY/CODE/GIT/ProjectIOE/IOE/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/FootstepsComponent.gen.cpp"
 #include "Z:/MY/CODE/GIT/ProjectIOE/IOE/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Crouch.gen.cpp"
 #include "Z:/MY/CODE/GIT/ProjectIOE/IOE/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Jump.gen.cpp"
+#include "Z:/MY/CODE/GIT/ProjectIOE/IOE/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Vault.gen.cpp"
+#include "Z:/MY/CODE/GIT/ProjectIOE/IOE/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOECharacter.gen.cpp"
 #include "Z:/MY/CODE/GIT/ProjectIOE/IOE/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOEGameMode.gen.cpp"
 #include "Z:/MY/CODE/GIT/ProjectIOE/IOE/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_AbilitySystemComponentBase.gen.cpp"
 #include "Z:/MY/CODE/GIT/ProjectIOE/IOE/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_AnimInstance.gen.cpp"

@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1EBE4C21-5C1F-3C58-BC12-279924A5F308}</ProjectGuid>
+    <ProjectGuid>{6B20CC50-F2A7-32AB-8898-FB89C63C0403}</ProjectGuid>
     <RootNamespace>IOE</RootNamespace>
   </PropertyGroup>
   <Import Project="UECommon.props" />
@@ -219,13 +219,13 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\IOE\IOEGameMode.h"/>
-    <ClCompile Include="..\..\Source\IOE\IOEStatics.cpp">
+    <ClInclude Include="..\..\Source\IOE\IOE_GameTypes.h"/>
+    <ClCompile Include="..\..\Source\IOE\IOE_Statics.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\Source\IOE\IOEStatics.h"/>
-    <ClInclude Include="..\..\Source\IOE\IOE_GameTypes.h"/>
+    <ClInclude Include="..\..\Source\IOE\IOE_Statics.h"/>
     <ClCompile Include="..\..\Source\IOE\AbilitySystem\Abilities\GA_Crouch.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -268,6 +268,12 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\IOE\ActorComponents\FootstepsComponent.h"/>
+    <ClCompile Include="..\..\Source\IOE\ActorComponents\InventoryComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IOE\ActorComponents\InventoryComponent.h"/>
     <ClCompile Include="..\..\Source\IOE\ActorComponents\IOE_CharacterMovementComponent.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -310,12 +316,6 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\IOE\GameInstances\IOE_GameInstance.h"/>
-    <ClCompile Include="..\..\Source\IOE\Inventory\InventoryComponent.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
-      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\IOE\Inventory\InventoryComponent.h"/>
     <ClCompile Include="..\..\Source\IOE\Inventory\InventoryItemInstance.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>

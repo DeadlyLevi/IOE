@@ -18,7 +18,7 @@
 
 #include "ActorComponents/IOE_CharacterMovementComponent.h"
 #include "ActorComponents/FootstepsComponent.h"
-#include "Inventory/InventoryComponent.h"
+#include "ActorComponents/InventoryComponent.h"
 
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"

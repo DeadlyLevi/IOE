@@ -57,13 +57,13 @@
     <ClInclude Include="..\..\Source\IOE\IOEGameMode.h">
       <Filter>Source\IOE</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\IOE\IOEStatics.cpp">
-      <Filter>Source\IOE</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\IOE\IOEStatics.h">
+    <ClInclude Include="..\..\Source\IOE\IOE_GameTypes.h">
       <Filter>Source\IOE</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\IOE\IOE_GameTypes.h">
+    <ClCompile Include="..\..\Source\IOE\IOE_Statics.cpp">
+      <Filter>Source\IOE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IOE\IOE_Statics.h">
       <Filter>Source\IOE</Filter>
     </ClInclude>
     <Filter Include="Source\IOE\AbilitySystem">
@@ -123,6 +123,12 @@
     <ClInclude Include="..\..\Source\IOE\ActorComponents\FootstepsComponent.h">
       <Filter>Source\IOE\ActorComponents</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\IOE\ActorComponents\InventoryComponent.cpp">
+      <Filter>Source\IOE\ActorComponents</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IOE\ActorComponents\InventoryComponent.h">
+      <Filter>Source\IOE\ActorComponents</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\IOE\ActorComponents\IOE_CharacterMovementComponent.cpp">
       <Filter>Source\IOE\ActorComponents</Filter>
     </ClCompile>
@@ -180,12 +186,6 @@
     <Filter Include="Source\IOE\Inventory">
       <UniqueIdentifier>{2167A5AA-5B8D-3C0C-9E83-750E925E08AA}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\IOE\Inventory\InventoryComponent.cpp">
-      <Filter>Source\IOE\Inventory</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\IOE\Inventory\InventoryComponent.h">
-      <Filter>Source\IOE\Inventory</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\IOE\Inventory\InventoryItemInstance.cpp">
       <Filter>Source\IOE\Inventory</Filter>
     </ClCompile>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "IOE",
+			"Path": "..\\Source\\IOE.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "IOEEditor",
+			"Path": "..\\Source\\IOEEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

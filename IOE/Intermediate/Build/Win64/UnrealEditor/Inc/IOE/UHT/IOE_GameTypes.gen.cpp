@@ -321,7 +321,7 @@ template<> IOE_API UScriptStruct* StaticStruct<FCharacterAnimationData>()
 		{ "ModuleRelativePath", "IOE_GameTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UItemStaticData_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UItemStaticData, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UItemStaticData_Statics::NewProp_Name_MetaData), Z_Construct_UClass_UItemStaticData_Statics::NewProp_Name_MetaData) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UItemStaticData_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UItemStaticData, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UItemStaticData_Statics::NewProp_Name_MetaData), Z_Construct_UClass_UItemStaticData_Statics::NewProp_Name_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UItemStaticData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UItemStaticData_Statics::NewProp_Name,
 	};
@@ -373,9 +373,9 @@ template<> IOE_API UScriptStruct* StaticStruct<FCharacterAnimationData>()
 		{ FCharacterAnimationData::StaticStruct, Z_Construct_UScriptStruct_FCharacterAnimationData_Statics::NewStructOps, TEXT("CharacterAnimationData"), &Z_Registration_Info_UScriptStruct_CharacterAnimationData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCharacterAnimationData), 3025100034U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UItemStaticData, UItemStaticData::StaticClass, TEXT("UItemStaticData"), &Z_Registration_Info_UClass_UItemStaticData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UItemStaticData), 745591987U) },
+		{ Z_Construct_UClass_UItemStaticData, UItemStaticData::StaticClass, TEXT("UItemStaticData"), &Z_Registration_Info_UClass_UItemStaticData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UItemStaticData), 4277222226U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_1271709039(TEXT("/Script/IOE"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_2863752657(TEXT("/Script/IOE"),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOE_GameTypes_h_Statics::EnumInfo));

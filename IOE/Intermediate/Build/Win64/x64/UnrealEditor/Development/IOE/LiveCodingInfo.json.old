@@ -8,7 +8,7 @@
 			"FootstepsComponent.gen.cpp.obj",
 			"GA_Crouch.gen.cpp.obj",
 			"GA_Jump.gen.cpp.obj",
-			"IOECharacter.gen.cpp.obj",
+			"GA_Vault.gen.cpp.obj",
 			"IOEGameMode.gen.cpp.obj",
 			"IOE_AbilitySystemComponentBase.gen.cpp.obj",
 			"IOE_AnimInstance.gen.cpp.obj",
@@ -35,18 +35,18 @@
 			"IOE.cpp.obj",
 			"IOEGameMode.cpp.obj",
 			"IOE_PhysicalMaterial.cpp.obj",
-			"GA_Vault.gen.cpp.obj",
 			"InventoryComponent.gen.cpp.obj",
 			"InventoryItemInstance.gen.cpp.obj",
 			"InventoryList.gen.cpp.obj",
 			"IOE.init.gen.cpp.obj",
-			"IOEStatics.gen.cpp.obj",
+			"IOECharacter.gen.cpp.obj",
 			"IOE_GameTypes.gen.cpp.obj",
+			"IOE_Statics.gen.cpp.obj",
 			"InventoryComponent.cpp.obj",
 			"InventoryItemInstance.cpp.obj",
 			"InventoryList.cpp.obj",
 			"IOECharacter.cpp.obj",
-			"IOEStatics.cpp.obj"
+			"IOE_Statics.cpp.obj"
 		]
 	}
 }
