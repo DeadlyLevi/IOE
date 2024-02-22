@@ -21,10 +21,21 @@ void UInventoryItemInstance::OnRep_Equipped()
 	
 }
 
+void UInventoryItemInstance::OnEquipped()
+{
+	bEquipped = true;
+}
+
+void UInventoryItemInstance::OnUnequipped()
+{
+	bEquipped = false;
+}
+
 void UInventoryItemInstance::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
 	DOREPLIFETIME(UInventoryItemInstance, ItemStaticDataClass);
 	DOREPLIFETIME(UInventoryItemInstance, bEquipped);
+	DOREPLIFETIME(UInventoryItemInstance, ItemActor);
 }

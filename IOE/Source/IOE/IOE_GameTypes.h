@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Actors/ItemActor.h"
 #include "IOE_GameTypes.generated.h"
 
 USTRUCT(BlueprintType)
@@ -54,5 +55,8 @@ public:
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	FName Name;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	TSubclassOf<AItemActor> ItemActorClass;
 
 };

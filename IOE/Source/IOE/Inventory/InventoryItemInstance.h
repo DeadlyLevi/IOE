@@ -31,7 +31,10 @@ public:
 	UFUNCTION()
 	void OnRep_Equipped();
 
-	virtual void OnEquipped() {};
-	virtual void OnUnequipped() {};
-	
+	virtual void OnEquipped();
+	virtual void OnUnequipped();
+
+protected:
+	UPROPERTY(Replicated)
+	AItemActor* ItemActor = nullptr;
 };

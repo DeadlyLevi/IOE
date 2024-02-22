@@ -141,6 +141,15 @@
     <ClInclude Include="..\..\Source\IOE\ActorComponents\IOE_MotionWarpingComponent.h">
       <Filter>Source\IOE\ActorComponents</Filter>
     </ClInclude>
+    <Filter Include="Source\IOE\Actors">
+      <UniqueIdentifier>{DBBA59E8-83CC-3FB0-BCA6-33591B152104}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IOE\Actors\ItemActor.cpp">
+      <Filter>Source\IOE\Actors</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IOE\Actors\ItemActor.h">
+      <Filter>Source\IOE\Actors</Filter>
+    </ClInclude>
     <Filter Include="Source\IOE\AnimInstances">
       <UniqueIdentifier>{115B2942-B798-321D-8AB5-56CF797C7FFD}</UniqueIdentifier>
     </Filter>
