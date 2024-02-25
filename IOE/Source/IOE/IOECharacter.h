@@ -124,10 +124,11 @@ protected:
 
 protected:
 
-	/** MappingContext */
+	// Mapping Context
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputMappingContext* DefaultMappingContext;
 
+	// Input Actions
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* MoveForwardInputAction;
 
@@ -149,6 +150,19 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* SprintInputAction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* EquipNextItemInputAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* EquipPrevItemInputAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* UnequipItemInputAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* DropItemInputAction;
+
+	// Actions
 	void OnMoveForwardAction(const FInputActionValue& Value);
 
 	void OnMoveSideAction(const FInputActionValue& Value);
@@ -168,6 +182,14 @@ protected:
 	void OnSprintActionStarted(const FInputActionValue& Value);
 
 	void OnSprintActionEnded(const FInputActionValue& Value);
+
+	void OnEquipNextItemInputAction(const FInputActionValue& Value);
+
+	void OnEquipPrevItemInputAction(const FInputActionValue& Value);
+
+	void OnUnequipItemInputAction(const FInputActionValue& Value);
+
+	void OnDropItemInputAction(const FInputActionValue& Value);
 
 	// Gameplay Events
 protected:
@@ -203,6 +225,5 @@ protected:
 protected:
 	UPROPERTY(EditAnywhere, Replicated)
 	UInventoryComponent* InventoryComponent = nullptr;
-
 };
 

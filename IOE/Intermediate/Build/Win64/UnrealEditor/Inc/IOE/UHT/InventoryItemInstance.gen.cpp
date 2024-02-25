@@ -11,6 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryItemInstance() {}
 // Cross Module References
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
+	IOE_API UClass* Z_Construct_UClass_AItemActor_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UInventoryItemInstance();
 	IOE_API UClass* Z_Construct_UClass_UInventoryItemInstance_NoRegister();
 	IOE_API UClass* Z_Construct_UClass_UItemStaticData_NoRegister();
@@ -124,6 +125,10 @@ void EmptyLinkFunctionForGeneratedCodeInventoryItemInstance() {}
 #endif
 		static void NewProp_bEquipped_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_bEquipped;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ItemActor_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ItemActor;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -165,9 +170,16 @@ void EmptyLinkFunctionForGeneratedCodeInventoryItemInstance() {}
 		((UInventoryItemInstance*)Obj)->bEquipped = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_bEquipped = { "bEquipped", "OnRep_Equipped", (EPropertyFlags)0x0010000100000020, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UInventoryItemInstance), &Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_bEquipped_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_bEquipped_MetaData), Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_bEquipped_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_ItemActor_MetaData[] = {
+		{ "ModuleRelativePath", "Inventory/InventoryItemInstance.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_ItemActor = { "ItemActor", nullptr, (EPropertyFlags)0x0020080000000020, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UInventoryItemInstance, ItemActor), Z_Construct_UClass_AItemActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_ItemActor_MetaData), Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_ItemActor_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInventoryItemInstance_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_ItemStaticDataClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_bEquipped,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryItemInstance_Statics::NewProp_ItemActor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UInventoryItemInstance_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UInventoryItemInstance>::IsAbstract,
@@ -205,10 +217,12 @@ void EmptyLinkFunctionForGeneratedCodeInventoryItemInstance() {}
 	{
 		static const FName Name_ItemStaticDataClass(TEXT("ItemStaticDataClass"));
 		static const FName Name_bEquipped(TEXT("bEquipped"));
+		static const FName Name_ItemActor(TEXT("ItemActor"));
 
 		const bool bIsValid = true
 			&& Name_ItemStaticDataClass == ClassReps[(int32)ENetFields_Private::ItemStaticDataClass].Property->GetFName()
-			&& Name_bEquipped == ClassReps[(int32)ENetFields_Private::bEquipped].Property->GetFName();
+			&& Name_bEquipped == ClassReps[(int32)ENetFields_Private::bEquipped].Property->GetFName()
+			&& Name_ItemActor == ClassReps[(int32)ENetFields_Private::ItemActor].Property->GetFName();
 
 		checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in UInventoryItemInstance"));
 	}
@@ -220,9 +234,9 @@ void EmptyLinkFunctionForGeneratedCodeInventoryItemInstance() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_Inventory_InventoryItemInstance_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UInventoryItemInstance, UInventoryItemInstance::StaticClass, TEXT("UInventoryItemInstance"), &Z_Registration_Info_UClass_UInventoryItemInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInventoryItemInstance), 2650291550U) },
+		{ Z_Construct_UClass_UInventoryItemInstance, UInventoryItemInstance::StaticClass, TEXT("UInventoryItemInstance"), &Z_Registration_Info_UClass_UInventoryItemInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInventoryItemInstance), 3530070638U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_Inventory_InventoryItemInstance_h_2253182(TEXT("/Script/IOE"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_Inventory_InventoryItemInstance_h_3414199897(TEXT("/Script/IOE"),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_Inventory_InventoryItemInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_Inventory_InventoryItemInstance_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -1,8 +1,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Actors/ItemActor.h"
 #include "IOE_GameTypes.generated.h"
+
+class AItemActor;
 
 USTRUCT(BlueprintType)
 struct FCharacterData
@@ -59,4 +60,17 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	TSubclassOf<AItemActor> ItemActorClass;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	FName AttachmentSocket = NAME_None;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	bool bCanBeEquipped = false;
+};
+
+UENUM(BlueprintType)
+enum class EItemState : uint8
+{
+	None UMETA(DisplayName = "None"),
+	Equipped UMETA(DisplayName = "Equipped"),
+	Dropped UMETA(DisplayName = "Dropped")
 };

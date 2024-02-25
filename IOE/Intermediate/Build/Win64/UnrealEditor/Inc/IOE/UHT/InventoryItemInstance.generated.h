@@ -39,7 +39,8 @@ public: \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		ItemStaticDataClass=NETFIELD_REP_START, \
 		bEquipped, \
-		NETFIELD_REP_END=bEquipped	}; \
+		ItemActor, \
+		NETFIELD_REP_END=ItemActor	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override; \
 private: \
 	REPLICATED_BASE_CLASS(UInventoryItemInstance) \

@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameplayTagContainer.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/Actor.h"
 #include "Inventory/InventoryItemInstance.h"
 #include "ItemActor.generated.h"
@@ -29,6 +31,21 @@ protected:
 
 	UPROPERTY(Replicated)
 	UInventoryItemInstance* ItemInstance = nullptr;
+
+	UPROPERTY(ReplicatedUsing = OnRep_ItemState)
+	TEnumAsByte<EItemState> ItemState = EItemState::None;
+
+	UFUNCTION()
+	void OnRep_ItemState();
+
+	UPROPERTY()
+	USphereComponent* SphereComponent = nullptr;
+
+	UFUNCTION()
+	void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<UItemStaticData> ItemStaticDataClass;
 	
 public:	
 	// Called every frame

@@ -213,6 +213,22 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_SprintInputAction;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_EquipNextItemInputAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_EquipNextItemInputAction;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_EquipPrevItemInputAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_EquipPrevItemInputAction;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_UnequipItemInputAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_UnequipItemInputAction;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DropItemInputAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_DropItemInputAction;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_JumpEventTag_MetaData[];
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_JumpEventTag;
@@ -345,11 +361,11 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/** MappingContext */" },
+		{ "Comment", "// Mapping Context\n" },
 #endif
 		{ "ModuleRelativePath", "IOECharacter.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "MappingContext" },
+		{ "ToolTip", "Mapping Context" },
 #endif
 	};
 #endif
@@ -358,7 +374,13 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_MoveForwardInputAction_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Input Actions\n" },
+#endif
 		{ "ModuleRelativePath", "IOECharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Input Actions" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_MoveForwardInputAction = { "MoveForwardInputAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, MoveForwardInputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_MoveForwardInputAction_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_MoveForwardInputAction_MetaData) };
@@ -410,6 +432,38 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction = { "SprintInputAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, SprintInputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipNextItemInputAction_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "IOECharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipNextItemInputAction = { "EquipNextItemInputAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, EquipNextItemInputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipNextItemInputAction_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipNextItemInputAction_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipPrevItemInputAction_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "IOECharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipPrevItemInputAction = { "EquipPrevItemInputAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, EquipPrevItemInputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipPrevItemInputAction_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipPrevItemInputAction_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_UnequipItemInputAction_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "IOECharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_UnequipItemInputAction = { "UnequipItemInputAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, UnequipItemInputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_UnequipItemInputAction_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_UnequipItemInputAction_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_DropItemInputAction_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "IOECharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIOECharacter_Statics::NewProp_DropItemInputAction = { "DropItemInputAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AIOECharacter, DropItemInputAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AIOECharacter_Statics::NewProp_DropItemInputAction_MetaData), Z_Construct_UClass_AIOECharacter_Statics::NewProp_DropItemInputAction_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIOECharacter_Statics::NewProp_JumpEventTag_MetaData[] = {
 		{ "Category", "IOECharacter" },
@@ -471,6 +525,10 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_JumpInputAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchInputAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_SprintInputAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipNextItemInputAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_EquipPrevItemInputAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_UnequipItemInputAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_DropItemInputAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_JumpEventTag,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_InAirTags,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIOECharacter_Statics::NewProp_CrouchTags,
@@ -532,9 +590,9 @@ void EmptyLinkFunctionForGeneratedCodeIOECharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIOECharacter, AIOECharacter::StaticClass, TEXT("AIOECharacter"), &Z_Registration_Info_UClass_AIOECharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIOECharacter), 4077271227U) },
+		{ Z_Construct_UClass_AIOECharacter, AIOECharacter::StaticClass, TEXT("AIOECharacter"), &Z_Registration_Info_UClass_AIOECharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIOECharacter), 533652633U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_84133368(TEXT("/Script/IOE"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_3213796071(TEXT("/Script/IOE"),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_IOECharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

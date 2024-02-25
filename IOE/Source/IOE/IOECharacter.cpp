@@ -230,6 +230,38 @@ void AIOECharacter::OnSprintActionEnded(const FInputActionValue& Value)
 	}
 }
 
+void AIOECharacter::OnEquipNextItemInputAction(const FInputActionValue& Value)
+{
+	FGameplayEventData EventPayload;
+	EventPayload.EventTag = UInventoryComponent::EquipNextTag;
+
+	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(this, UInventoryComponent::EquipNextTag, EventPayload);
+}
+
+void AIOECharacter::OnEquipPrevItemInputAction(const FInputActionValue& Value)
+{
+	FGameplayEventData EventPayload;
+	EventPayload.EventTag = UInventoryComponent::EquipPrevTag;
+
+	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(this, UInventoryComponent::EquipPrevTag, EventPayload);
+}
+
+void AIOECharacter::OnUnequipItemInputAction(const FInputActionValue& Value)
+{
+	FGameplayEventData EventPayload;
+	EventPayload.EventTag = UInventoryComponent::UnequipTag;
+
+	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(this, UInventoryComponent::UnequipTag, EventPayload);
+}
+
+void AIOECharacter::OnDropItemInputAction(const FInputActionValue& Value)
+{
+	FGameplayEventData EventPayload;
+	EventPayload.EventTag = UInventoryComponent::DropItemTag;
+
+	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(this, UInventoryComponent::DropItemTag, EventPayload);
+}
+
 void AIOECharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// Set up action bindings
@@ -262,18 +294,42 @@ void AIOECharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 			EnhancedInputComponent->BindAction(JumpInputAction, ETriggerEvent::Completed, this, &AIOECharacter::OnJumpActionEnded);
 		}
 
-		//Crouching
+		// Crouching
 		if(CrouchInputAction)
 		{
 			EnhancedInputComponent->BindAction(CrouchInputAction, ETriggerEvent::Started, this, &AIOECharacter::OnCrouchActionStarted);
 			EnhancedInputComponent->BindAction(CrouchInputAction, ETriggerEvent::Completed, this, &AIOECharacter::OnCrouchActionEnded);
 		}
 
-		//Sprinting
+		// Sprinting
 		if (SprintInputAction)
 		{
 			EnhancedInputComponent->BindAction(SprintInputAction, ETriggerEvent::Started, this, &AIOECharacter::OnSprintActionStarted);
 			EnhancedInputComponent->BindAction(SprintInputAction, ETriggerEvent::Completed, this, &AIOECharacter::OnSprintActionEnded);
+		}
+
+		// Equip Next
+		if (EquipNextItemInputAction)
+		{
+			EnhancedInputComponent->BindAction(EquipNextItemInputAction, ETriggerEvent::Started, this, &AIOECharacter::OnEquipNextItemInputAction);
+		}
+
+		// Equip Prev
+		if (EquipPrevItemInputAction)
+		{
+			EnhancedInputComponent->BindAction(EquipPrevItemInputAction, ETriggerEvent::Started, this, &AIOECharacter::OnEquipPrevItemInputAction);
+		}
+
+		// Unequip
+		if (UnequipItemInputAction)
+		{
+			EnhancedInputComponent->BindAction(UnequipItemInputAction, ETriggerEvent::Started, this, &AIOECharacter::OnUnequipItemInputAction);
+		}
+
+		// Drop
+		if (DropItemInputAction)
+		{
+			EnhancedInputComponent->BindAction(DropItemInputAction, ETriggerEvent::Started, this, &AIOECharacter::OnDropItemInputAction);
 		}
 	}
 	else
