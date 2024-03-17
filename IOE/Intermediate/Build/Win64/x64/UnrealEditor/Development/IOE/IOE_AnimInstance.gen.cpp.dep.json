@@ -7,6 +7,8 @@
         "Includes": [
             "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ioe\\definitions.ioe.h",
             "z:\\my\\code\\git\\projectioe\\ioe\\source\\ioe\\animinstances\\ioe_animinstance.h",
+            "z:\\my\\code\\git\\projectioe\\ioe\\source\\ioe\\ioe_gametypes.h",
+            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe_gametypes.generated.h",
             "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe_animinstance.generated.h"
         ],
         "ImportedModules": [],

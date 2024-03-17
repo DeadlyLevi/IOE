@@ -65,6 +65,9 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	bool bCanBeEquipped = false;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	FCharacterAnimationData CharacterAnimationData;
 };
 
 UENUM(BlueprintType)

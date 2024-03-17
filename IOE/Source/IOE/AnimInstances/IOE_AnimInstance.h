@@ -3,12 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "IOE_GameTypes.h"
 #include "Animation/AnimInstance.h"
 #include "IOE_AnimInstance.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class IOE_API UIOE_AnimInstance : public UAnimInstance
 {
@@ -16,6 +14,8 @@ class IOE_API UIOE_AnimInstance : public UAnimInstance
 
 protected:
 
+	const UItemStaticData* GetEquippedItemData() const;
+	
 	UFUNCTION(BlueprintCallable, meta = (BlueprintThreadSafe))
 	class UBlendSpace* GetLocomotionBlendSpace() const;
 	

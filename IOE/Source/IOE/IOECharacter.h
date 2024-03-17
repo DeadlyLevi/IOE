@@ -65,6 +65,8 @@ public:
 	virtual void OnEndCrouch(float HalfHeightAdjust, float ScaleHalfHeightAdjust) override;
 
 	UIOE_MotionWarpingComponent* GetIOEMotionWarpingComponent() const;
+	
+	UInventoryComponent* GetInventoryComponent() const;
 protected:
 
 	void GiveAbilities();
@@ -81,7 +83,7 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = MotionWarp)
 	UIOE_MotionWarpingComponent* IOEMotionWarpingComponent;
-
+	
 	UIOE_CharacterMovementComponent* IOECharacterMovementComponent;
 
 protected:

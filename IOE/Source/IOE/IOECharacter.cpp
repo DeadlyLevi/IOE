@@ -262,6 +262,11 @@ void AIOECharacter::OnDropItemInputAction(const FInputActionValue& Value)
 	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(this, UInventoryComponent::DropItemTag, EventPayload);
 }
 
+UInventoryComponent* AIOECharacter::GetInventoryComponent() const
+{
+	return InventoryComponent;
+}
+
 void AIOECharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// Set up action bindings
