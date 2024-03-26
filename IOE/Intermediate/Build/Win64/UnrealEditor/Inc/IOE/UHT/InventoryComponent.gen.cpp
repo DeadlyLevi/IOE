@@ -484,7 +484,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryComponent() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInventoryComponent_ServerHandleGameplayEvent_Statics::NewProp_Payload = { "Payload", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InventoryComponent_eventServerHandleGameplayEvent_Parms, Payload), Z_Construct_UScriptStruct_FGameplayEventData, METADATA_PARAMS(0, nullptr) }; // 2361332821
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInventoryComponent_ServerHandleGameplayEvent_Statics::NewProp_Payload = { "Payload", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InventoryComponent_eventServerHandleGameplayEvent_Parms, Payload), Z_Construct_UScriptStruct_FGameplayEventData, METADATA_PARAMS(0, nullptr) }; // 3848146833
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInventoryComponent_ServerHandleGameplayEvent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInventoryComponent_ServerHandleGameplayEvent_Statics::NewProp_Payload,
 	};
@@ -578,7 +578,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryComponent() {}
 		{ &Z_Construct_UFunction_UInventoryComponent_EquipPrev, "EquipPrev" }, // 717012503
 		{ &Z_Construct_UFunction_UInventoryComponent_GetEquippedItem, "GetEquippedItem" }, // 2339934248
 		{ &Z_Construct_UFunction_UInventoryComponent_RemoveItem, "RemoveItem" }, // 901263796
-		{ &Z_Construct_UFunction_UInventoryComponent_ServerHandleGameplayEvent, "ServerHandleGameplayEvent" }, // 2058104438
+		{ &Z_Construct_UFunction_UInventoryComponent_ServerHandleGameplayEvent, "ServerHandleGameplayEvent" }, // 319877131
 		{ &Z_Construct_UFunction_UInventoryComponent_UnequipItem, "UnequipItem" }, // 987106306
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryComponent_Statics::FuncInfo) < 2048);
@@ -666,9 +666,9 @@ void EmptyLinkFunctionForGeneratedCodeInventoryComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_ActorComponents_InventoryComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UInventoryComponent, UInventoryComponent::StaticClass, TEXT("UInventoryComponent"), &Z_Registration_Info_UClass_UInventoryComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInventoryComponent), 3050918653U) },
+		{ Z_Construct_UClass_UInventoryComponent, UInventoryComponent::StaticClass, TEXT("UInventoryComponent"), &Z_Registration_Info_UClass_UInventoryComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInventoryComponent), 1890713881U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_ActorComponents_InventoryComponent_h_3908661991(TEXT("/Script/IOE"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_IOE_Source_IOE_ActorComponents_InventoryComponent_h_3635142420(TEXT("/Script/IOE"),
 		Z_CompiledInDeferFile_FID_IOE_Source_IOE_ActorComponents_InventoryComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_IOE_Source_IOE_ActorComponents_InventoryComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

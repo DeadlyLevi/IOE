@@ -7,6 +7,8 @@
 #include "Animation/AnimInstance.h"
 #include "IOE_AnimInstance.generated.h"
 
+
+class UItemStaticData;
 UCLASS()
 class IOE_API UIOE_AnimInstance : public UAnimInstance
 {

@@ -11,53 +11,180 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2eb90c33-6e1f-4511-a599-ac399b35e910" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.cpp.dep.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.cpp.obj.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-863E8FBC4E493151B5BD4DAC00047888/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8E2CCA6C49D0A73327138197B2AB6C2C/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/IOE-backup-2024.02.26-13.09.58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/IOE-backup-2024.02.26-21.35.42.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-IOE-0001.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.RTTI.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/HotReload.state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Metadata-HotReload.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Default.rc2.res.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Definitions.IOE.h.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Crouch.gen.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Jump.gen.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Vault.gen.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE.Shared.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE.init.gen.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOECharacter.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AbilitySystemComponentBase.gen.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_GameplayAbility.gen.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.gen.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp.obj.rsp.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE-0001.dll.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE-0001.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE-0001.lib.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE-0001.sup.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/AutomationTool.csproj.References.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UECommon.props.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2024.03.26-10.05.14.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/UnrealVersionSelector-2024.03.26-10.05.14.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IOE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IOE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-IOE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-IOE.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/IOEEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/IOEEditor.target" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-IOE.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/IOEModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/IOEModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/IOEModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/IOEModuleRulesManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/Development/IOEModuleRules.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/Development/IOEModuleRules.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/Development/IOEModuleRules.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/Development/IOEModuleRules.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/Development/IOEModuleRules.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/Development/IOEModuleRules.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/IOEModuleRules.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/IOEModuleRules.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/IOEModuleRules.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/IOEModuleRules.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/IOEModuleRules/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/IOEEditor/Development/IOEEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/IOEEditor/Development/IOEEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Crouch.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Crouch.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Jump.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Jump.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Vault.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/GA_Vault.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_AnimInstance.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_AnimInstance.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_AbilitySystemComponentBase.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_AbilitySystemComponentBase.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_AnimInstance.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_AnimInstance.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_GameTypes.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_GameTypes.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_GameplayAbility.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/IOE_GameplayAbility.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/InventoryComponent.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/InventoryComponent.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/IOE/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp17.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.obj.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp17.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.RTTI.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Engine/SharedPCH.Engine.RTTI.Cpp20.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/TargetMetadata.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/IOEEditor/Development/UnrealEd/SharedPCH.UnrealEd.RTTI.Cpp20.h.obj.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Definitions.IOE.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Definitions.IOE.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Crouch.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Crouch.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Crouch.gen.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Crouch.gen.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Jump.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Jump.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Jump.gen.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Jump.gen.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Vault.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Vault.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Vault.gen.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/GA_Vault.gen.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE.Shared.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE.Shared.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE.init.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE.init.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE.init.gen.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE.init.gen.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOECharacter.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOECharacter.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOECharacter.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOECharacter.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AbilitySystemComponentBase.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AbilitySystemComponentBase.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AbilitySystemComponentBase.gen.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AbilitySystemComponentBase.gen.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_AnimInstance.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_GameplayAbility.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_GameplayAbility.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_GameplayAbility.gen.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/IOE_GameplayAbility.gen.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.cpp.obj.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.gen.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.gen.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.gen.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/InventoryComponent.gen.cpp.obj.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/LiveCodingInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/LiveCodingInfo.json.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/LiveCodingInfo.json.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp.dep.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp.obj.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp.obj.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/Module.IOE.cpp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.dll.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.dll.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.dll.rsp.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.lib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.lib.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.lib.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.lib.rsp.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.sup.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.sup.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/IOE/UnrealEditor-IOE.sup.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/XmlConfigCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/XmlConfigCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-6295DD1348C5EF71836277AC123661C8/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-86801C18446595BA46ACFCAE06608DC7/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8F0C79B1475BCA350BF123B5B87E1C86/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-910DFDA34885D28976E1A7932E7F76F4/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F9A9C9644F115503C5D3059A729D1198/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/IOE.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/IOE.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/root.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/root.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/AutomationTool.csproj.References" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/AutomationTool.csproj.References" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/IOE.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/IOE.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UECommon.props" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UECommon.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/IOE-backup-2024.02.24-14.13.04.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/IOE-backup-2024.02.25-08.50.51.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/IOE.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/IOE.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/IOE_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/IOE_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IOE/ActorComponents/InventoryComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IOE/ActorComponents/InventoryComponent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/IOE/AnimInstances/IOE_AnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IOE/AnimInstances/IOE_AnimInstance.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/IOE/AnimInstances/IOE_AnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IOE/AnimInstances/IOE_AnimInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IOE/IOECharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IOE/IOECharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/IOE/IOECharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IOE/IOECharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IOE/IOE_GameTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IOE/IOE_GameTypes.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,19 +244,20 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Levi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Levi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Levi\\AppData\\Local\\Symbols\\src&quot;
+      &quot;C:\\Users\\leven\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\leven\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\leven\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
 }</component>
@@ -318,6 +446,8 @@
       <workItem from="1708849035275" duration="2412000" />
       <workItem from="1708891190503" duration="8769000" />
       <workItem from="1708982221477" duration="1342000" />
+      <workItem from="1711443788683" duration="2490000" />
+      <workItem from="1711447161150" duration="169000" />
     </task>
     <servers />
   </component>

@@ -8064,19 +8064,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Levi\\.nuget\\packages\\": {}
+    "C:\\Users\\leven\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\IOEModuleRules.csproj",
+      "projectUniqueName": "D:\\MY\\CODE\\WORK\\SparkStudios\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\IOEModuleRules.csproj",
       "projectName": "IOEModuleRules",
-      "projectPath": "Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\IOEModuleRules.csproj",
-      "packagesPath": "C:\\Users\\Levi\\.nuget\\packages\\",
-      "outputPath": "Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\obj\\",
+      "projectPath": "D:\\MY\\CODE\\WORK\\SparkStudios\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\IOEModuleRules.csproj",
+      "packagesPath": "C:\\Users\\leven\\.nuget\\packages\\",
+      "outputPath": "D:\\MY\\CODE\\WORK\\SparkStudios\\ProjectIOE\\IOE\\Intermediate\\Build\\BuildRulesProjects\\IOEModuleRules\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Levi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leven\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

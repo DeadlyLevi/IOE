@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe.init.gen.cpp",
+        "Source": "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\ioeeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\ioeeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ioe\\definitions.ioe.h"
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ioe\\definitions.ioe.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

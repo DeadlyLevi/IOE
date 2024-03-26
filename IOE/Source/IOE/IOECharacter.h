@@ -67,6 +67,7 @@ public:
 	UIOE_MotionWarpingComponent* GetIOEMotionWarpingComponent() const;
 	
 	UInventoryComponent* GetInventoryComponent() const;
+	
 protected:
 
 	void GiveAbilities();

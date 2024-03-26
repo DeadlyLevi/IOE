@@ -3,13 +3,14 @@
 #include "AnimInstances/IOE_AnimInstance.h"
 #include "IOECharacter.h"
 #include "IOE_GameTypes.h"
-#include "ActorComponents/InventoryComponent.h"
 #include "Animation/AnimSequenceBase.h"
 #include "Animation/BlendSpace.h"
 #include "DataAssets/CharacterAnimDataAsset.h"
+
+#include "ActorComponents/InventoryComponent.h"
 #include "Inventory/InventoryItemInstance.h"
 
-//TO REFACTOR AND OPTIMIZE!
+// TODO refactor this part that handles animations in a better way
 
 const UItemStaticData* UIOE_AnimInstance::GetEquippedItemData() const
 {

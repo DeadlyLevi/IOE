@@ -258,7 +258,7 @@ void UInventoryComponent::HandleGameplayEventInternal(FGameplayEventData Payload
 
 				if(Payload.Instigator)
 				{
-					const_cast<AActor*>(Payload.Instigator)->Destroy();
+					const_cast<AActor*>(Payload.Instigator.Get())->Destroy();
 				}
 			}
 		}

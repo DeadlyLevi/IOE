@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\inventorycomponent.gen.cpp",
+        "Source": "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\inventorycomponent.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\ioeeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\ioeeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ioe\\definitions.ioe.h",
-            "z:\\my\\code\\git\\projectioe\\ioe\\source\\ioe\\actorcomponents\\inventorycomponent.h",
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ioe\\definitions.ioe.h",
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\source\\ioe\\actorcomponents\\inventorycomponent.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilities\\gameplayabilitytypes.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
@@ -37,10 +37,10 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilities\\gameplayabilitytargettypes.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayabilitytargettypes.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayabilitytypes.generated.h",
-            "z:\\my\\code\\git\\projectioe\\ioe\\source\\ioe\\inventory\\inventorylist.h",
-            "z:\\my\\code\\git\\projectioe\\ioe\\source\\ioe\\inventory\\inventoryiteminstance.h",
-            "z:\\my\\code\\git\\projectioe\\ioe\\source\\ioe\\ioe_gametypes.h",
-            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe_gametypes.generated.h",
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\source\\ioe\\inventory\\inventorylist.h",
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\source\\ioe\\inventory\\inventoryiteminstance.h",
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\source\\ioe\\ioe_gametypes.h",
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\ioe_gametypes.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
@@ -48,9 +48,9 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
-            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\inventoryiteminstance.generated.h",
-            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\inventorylist.generated.h",
-            "z:\\my\\code\\git\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\inventorycomponent.generated.h"
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\inventoryiteminstance.generated.h",
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\inventorylist.generated.h",
+            "d:\\my\\code\\work\\sparkstudios\\projectioe\\ioe\\intermediate\\build\\win64\\unrealeditor\\inc\\ioe\\uht\\inventorycomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

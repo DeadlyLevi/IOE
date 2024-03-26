@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Source\\IOE\\IOE.Build.cs",
-		"Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Source\\IOE.Target.cs",
-		"Z:\\MY\\CODE\\GIT\\ProjectIOE\\IOE\\Source\\IOEEditor.Target.cs"
+		"D:\\MY\\CODE\\WORK\\SparkStudios\\ProjectIOE\\IOE\\Source\\IOE\\IOE.Build.cs",
+		"D:\\MY\\CODE\\WORK\\SparkStudios\\ProjectIOE\\IOE\\Source\\IOE.Target.cs",
+		"D:\\MY\\CODE\\WORK\\SparkStudios\\ProjectIOE\\IOE\\Source\\IOEEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }
